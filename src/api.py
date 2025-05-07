@@ -64,7 +64,7 @@ class HeadHunterAPI:
         for vacancy in vacancies:
             salary = vacancy.get('salary')
             processed_vacancies.append({
-                'vacancy_id': vacancy['id'],  # Изменили 'id' на 'vacancy_id'
+                'vacancy_id': vacancy['id'],
                 'employer_id': employer_id,
                 'title': vacancy['name'],
                 'salary_from': salary['from'] if salary and salary.get('from') else None,

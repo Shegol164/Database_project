@@ -46,6 +46,7 @@ def main():
         print(f"Произошла ошибка: {e}")
         sys.exit(1)
 
+
 def user_interface(db_manager):
     """Интерфейс взаимодействия с пользователем"""
     while True:
@@ -111,6 +112,7 @@ def user_interface(db_manager):
 
         else:
             print("Неверный ввод. Попробуйте еще раз.")
+
 
 def format_salary(vacancy):
     """Форматирование отображения зарплаты"""
